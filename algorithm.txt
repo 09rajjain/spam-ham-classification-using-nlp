@@ -1,0 +1,19 @@
+1. Get the Data: Start by collecting a bunch of text messages, some of which are spam (junk) and others are ham (legitimate).
+
+2. Prepare the Data: Clean up the messages by removing any unnecessary stuff and breaking them into individual words. We want to focus on the words themselves.
+
+3. Split the Data: Divide your collection of messages into two groups: one for training our system and one for testing it.
+
+4. Learn from Examples: Teach the system by showing it examples of spam and ham messages. We'll let it know what kind of words tend to show up in each type of message.
+
+5. Understand the Messages: Now, for each message, we'll figure out which words are important and which ones are not so important. This helps us focus on the key details.
+
+6. Build a Simple System: We'll use a simple method called Naive Bayes to build our spam detector. It's like a really smart guesser that looks at the words in a message and makes a prediction about whether it's spam or ham.
+
+7. Test the System: Once our system is trained, we'll test it on the messages we set aside earlier. This helps us see how well it can predict whether a message is spam or ham.
+
+8. Improve and Fine-Tune: If our system doesn't do a great job at first, that's okay! We'll try to understand why it's making mistakes and make adjustments to help it get better.
+
+9. Use the System: Once our system is doing a good job at telling spam apart from ham, we can start using it to help filter out unwanted messages in real life.
+
+10. Keep Learning: Over time, we'll keep an eye on how our system is doing and keep teaching it about new types of spam that might show up.
